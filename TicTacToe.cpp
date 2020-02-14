@@ -20,7 +20,7 @@ void displayPlayerTurn(int turnCounter) {
     cout << endl;
 }
 
-void replaceMatrixValues(int userInput, int turn) {
+void replaceMatrixValues(int userInput, int turn) { // replacing 
     char playerSign;
     if ((turn % 2) == 1) { // player 1's turn
         playerSign = 'X';
@@ -75,7 +75,7 @@ void GetPlayerInput() {
     turn ++;
 }
 
-void PlayerInput() {
+void PlayerInput() { // gets player input
     int turnCounter = 1;
     int player1Input;
     int player2Input;
