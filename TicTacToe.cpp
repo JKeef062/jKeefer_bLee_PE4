@@ -79,7 +79,6 @@ std::vector<std::vector<char> > CreateBoard() {
   return std::vector<std::vector<char> >(3, std::vector<char>(3, ' '));
 }
 
-
 void DisplayBoard(std::vector<std::vector<char> > board) {
   std::cout << '\n' << " Tic Tac Toe \n\n";
   for(int i = 0; i < board.size(); i++) {

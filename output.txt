@@ -1,0 +1,77 @@
+ Tic Tac Toe 
+
+   |   |  
+--- --- ---
+   |   |  
+--- --- ---
+   |   |  
+
+Player 1(X): Please select the space you wish to markor input "help" to show location key): help
+
+ ul | uc | ur 
+---- ---- ----
+ cl |  c | cr 
+---- ---- ----
+ ll | lc | lr 
+
+Player 1(X): Please select the space you wish to markor input "help" to show location key): ul
+
+ Tic Tac Toe 
+
+ X |   |  
+--- --- ---
+   |   |  
+--- --- ---
+   |   |  
+
+Player 2(O): Please select the space you wish to markor input "help" to show location key): c
+
+ Tic Tac Toe 
+
+ X |   |  
+--- --- ---
+   | O |  
+--- --- ---
+   |   |  
+
+Player 1(X): Please select the space you wish to markor input "help" to show location key): help
+
+ ul | uc | ur 
+---- ---- ----
+ cl |  c | cr 
+---- ---- ----
+ ll | lc | lr 
+
+Player 1(X): Please select the space you wish to markor input "help" to show location key): cl
+
+ Tic Tac Toe 
+
+ X |   |  
+--- --- ---
+ X | O |  
+--- --- ---
+   |   |  
+
+Player 2(O): Please select the space you wish to markor input "help" to show location key): lr
+
+ Tic Tac Toe 
+
+ X |   |  
+--- --- ---
+ X | O |  
+--- --- ---
+   |   | O
+
+Player 1(X): Please select the space you wish to markor input "help" to show location key): ll
+
+ Tic Tac Toe 
+
+ X |   |  
+--- --- ---
+ X | O |  
+--- --- ---
+ X |   | O
+
+========= GAME OVER =========
+
+Program ended with exit code: 0
