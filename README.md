@@ -7,3 +7,10 @@ played from the terminal.
 Person 1: Jared Keefer
 
 Person 2: Benjamin Lee
+
+COMPILATION AND PROGRAM RUN INSTRUCTIONS:
+- Compile the file TicTacToe.cpp using the following command;
+	g++ -o TicTacToe TicTacToe.cpp
+- From the directory where you ran the compilation command
+  use the following command to run the program/start a game;
+	./TicTacToe
