@@ -72,14 +72,11 @@ int main(int argc, char **argv) {
   return 0;
 }
 
-
 /*=================== FUNCTION IMPLEMENATATIONS ==================*/
 
 std::vector<std::vector<char> > CreateBoard() {
   return std::vector<std::vector<char> >(3, std::vector<char>(3, ' '));
-}
-
-
+  
 void DisplayBoard(std::vector<std::vector<char> > board) {
   std::cout << '\n' << " Tic Tac Toe \n\n";
   for(int i = 0; i < board.size(); i++) {
@@ -143,32 +140,7 @@ std::string GetPlayerChoice(int turn){
         if (p_choice == locations[i]) {
           is_valid_selection = true;
           break;
-        }
-      }
-    }
-    else if (p_choice[0] == 'c') {
-      for(int i = 3; i < 6; i++) {
-        if (p_choice == locations[i]) {
-          is_valid_selection = true;
-          break;
-        }
-      }
-    }
-    else if (p_choice[0] == 'l') {
-      for(int i = 6; i < 9; i++) {
-        if (p_choice == locations[i]) {
-          is_valid_selection = true;
-          break;
-        }
-      }
-    }
-    else {
-      std::cout << "\nINVALID LOCATION!\n\n";
-    }
-  }
-
-  return p_choice;
-}
+   
 
 
 int LocationFromString(std::string user_input) {
@@ -204,7 +176,7 @@ int LocationFromString(std::string user_input) {
   return location;
 }
 
-
+          
 void PlaceMarker(std::string user_input, int turn,
                  std::vector<std::vector<char> > &matrix) {
   int location = LocationFromString(user_input);
